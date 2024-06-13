@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="prof">
+        <div class="back">
+          <img src="images/image-jeremy.png" alt="prof-img">
+          <div class="text">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="d-w-m">
+          <button id="Daily">Daily</button>
+          <button id="Weekly">Weekly</button>
+          <button id="Monthly">Monthly</button>
+        </div>
+      </div>
+      <div class="track" >
+        <div class="info work"id="info">
+          <img src="images/icon-work.svg" alt="icon-work">
+          <div class="time">
+            <h2>Work<img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+              <h1 id="current"></h1>
+              <p id="past" ></p>
+            </div>
+          </div>
+        </div>
+        <div class="info play">
+          <img src="images/icon-play.svg" alt="icon-play">
+          <div class="time ">
+            <h2>Play <img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+              <h1 id="current"></h1>
+              <p id="past"></p>
+            </div>
+          </div>
+        </div>
+        <div class="info study">
+          <img src="images/icon-study.svg" alt="icon-study">
+          <div class="time">
+            <h2>Study<img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+              <h1 id="current"></h1>
+              <p id="past"></p>
+            </div>
+          </div>
+        </div>
+        <div class="info exercise">
+          <img src="images/icon-exercise.svg" alt="icon-exercise">
+          <div class="time">
+            <h2>Exercise<img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+              <h1 id="current"></h1>
+              <p id="past"></p>
+            </div>
+          </div>
+        </div>
+        <div class="info social">
+          <img src="images/icon-social.svg" alt=" icon-social">
+          <div class="time">
+            <h2>Social<img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+              <h1 id="current"></h1>
+              <p id="past"></p>
+            </div>
+          </div>
+        </div>
+        <div class="info self-care">
+          <img src="images/icon-self-care.svg" alt="icon-self-care">
+          <div class="time">
+            <h2>Self-care<img class="ellip"src="images/icon-ellipsis.svg" alt="icon-ellipsis"></h2>
+            <div class="t-inline">
+            <h1 id="current"></h1>
+            <p id="past"></p>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+ 
+  </body>
+</html>
